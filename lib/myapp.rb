@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
+	@cat_name = ["Mittens", "Milkshake", "Fuzzball"].sample
   erb(:index)
 end
 
