@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  'Hello!'
+  erb(:index)
 end
 
 get '/secret' do
